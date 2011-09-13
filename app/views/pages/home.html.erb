@@ -8,17 +8,16 @@
       </td>
       <td class="sidebar round">
         <%= render 'shared/user_info' %>
+        <%= render 'shared/stats' %>
       </td>
     </tr>
   </table>
 <% else %>
 
-<h1>Grouse</h1>
+<h1><i>psst...</i></h1>
 
 <p>
-  This is the home page for the
-  <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-  sample application.
+  Some places are like people: some shine and some don't.
 </p>
 
 <%= link_to "Sign up now!", signup_path, :class => "signup_button round" %>
