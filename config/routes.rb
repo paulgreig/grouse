@@ -12,6 +12,7 @@ Grouse::Application.routes.draw do
 
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
+  resources :microposts, :only => [:create, :destroy]
 
   get "sessions/new" #may not be required
   
